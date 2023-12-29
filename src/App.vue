@@ -19,6 +19,9 @@
       </div>
     </div>
   </div>
+  <footer class="bg-primary text-light">
+    <div> Design in {{ new Date().getFullYear() }} by Ely</div>
+  </footer>
 </template>
 
 <script setup lang="ts">
@@ -80,5 +83,15 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
 }
 </style>
